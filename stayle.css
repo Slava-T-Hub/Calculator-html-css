@@ -1,0 +1,72 @@
+* {
+  margin: none;
+}
+
+.conteiner {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 200px;
+  height: 350px;
+  background-color: rgb(52, 52, 52);
+  border-radius: 20px;
+}
+
+.buttons {
+  width: 200px;
+  height: 250px;
+  display: grid;
+  grid-template-areas:
+    "ac plus-minus procent devide"
+    "seven eigth then multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dot equal";
+}
+.btn {
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 1rem;
+  border: 0.1px solid black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn.bg-gray {
+  background: gray;
+}
+.btn.bg-darkGr {
+  background: rgb(92, 91, 91);
+}
+
+.btn.bg-orange {
+  background: rgb(179, 129, 35);
+}
+.btn.zero {
+  grid-area: zero;
+  width: 100%;
+  border-radius: 0px 0px 0px 20px;
+}
+
+.btn.equal {
+  border-radius: 0px 0px 20px 0px;
+}
+.btn:hover {
+  filter: brightness(110%);
+}
+
+.btn:active {
+  filter: brightness(90%);
+}
+
+.scrin {
+  width: 200px;
+  height: 100px;
+}
+
+.scrin p {
+  font-size: 50px;
+  text-align: end;
+  padding-top: 33px;
+  color: white;
+  margin-right: 8px;
+}
